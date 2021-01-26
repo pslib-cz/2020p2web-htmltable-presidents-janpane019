@@ -1,15 +1,17 @@
 .presidents{
     border-spacing: 0;
+    border-collapse: collapse;
 }
-.komuniste{
 
-}
-.spolecne{
-
-}
 th{
     font-weight: bold;
 }
 td{
     font-weight: normal;
+}
+thead{
+    border-bottom: 3px solid black;
+}
+tfoot{
+    border-top: 3px solid black;
 }
